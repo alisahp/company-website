@@ -6,9 +6,9 @@ variable "deployment_endpoint" {
   type = "map"
 
   default = {
-    dev  = "dev.fuchicorp.com"
-    qa   = "qa.fuchicorp.com"
-    prod = "fuchicorp.com"
+    dev  = "dev.mybestsea.com"
+    qa   = "qa.mybestsea.com"
+    prod = "prod.mybestsea.com"
   }
 }
 
