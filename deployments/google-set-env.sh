@@ -13,7 +13,7 @@ if [ ! -f "$DATAFILE" ]; then
 fi
 
 wget --quiet -O "$PWD/common_configuration.tfvars"\
-  "https://raw.githubusercontent.com/fuchicorp/main-fuchicorp/master/project-configuration/google_account_information.tfvars"
+  "https://raw.githubusercontent.com/alisahp/company-website/master/deployments/google_account_information.tfvars"
 
 
 BUCKET=$(sed -nr 's/^google_bucket_name\s*=\s*"([^"]*)".*$/\1/p'             "$PWD/common_configuration.tfvars")
