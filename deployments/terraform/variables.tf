@@ -6,9 +6,9 @@ variable "deployment_endpoint" {
   type = "map"
 
   default = {
-    dev  = "dev.mybestsea.com"
-    qa   = "qa.mybestsea.com"
-    prod = "prod.mybestsea.com"
+    dev  = "dev.alisait.net"
+    qa   = "qa.alisait.net"
+    prod = "prod.alisait.net"
   }
 }
 
