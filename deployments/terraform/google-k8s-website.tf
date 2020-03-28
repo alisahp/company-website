@@ -1,7 +1,7 @@
-module "mybestsea_website" {
-  source  = "mybestsea/chart/helm"
+module "alisait_website" {
+  source  = "fuchicorp/chart/helm"
   version = "0.0.2"
-  deployment_name        = "mybestsea-website-${var.deployment_environment}"
+  deployment_name        = "alisait-website-${var.deployment_environment}"
   deployment_environment = "${var.deployment_environment}"
   deployment_endpoint    = "${lookup(var.deployment_endpoint, "${var.deployment_environment}")}"
   deployment_path        = "website"
