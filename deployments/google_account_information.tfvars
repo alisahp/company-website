@@ -6,4 +6,4 @@ google_email = "d**********s@gmail.com"
 
 cluster_version = "1.14.10-gke.27"
 
-google_bucket_name = "mybestsea4"
+google_bucket_name = "m*****sea4"
